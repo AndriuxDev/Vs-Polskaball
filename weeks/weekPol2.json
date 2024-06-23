@@ -1,0 +1,41 @@
+{
+	"songs": [
+		[
+			"Fiesta Rhythm",
+			"mexico",
+			[
+				0,
+				104,
+				71
+			]
+		],
+		[
+			"Carnaval Beat",
+			"brazil",
+			[
+				0,
+				156,
+				59
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Latin Legends",
+	"weekName": "VS LATAM",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "pol1",
+	"startUnlocked": false
+}

@@ -1,0 +1,59 @@
+{
+	"songs": [
+		[
+			"Unity Beat",
+			"poland",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"Red Thunder",
+			"russia",
+			[
+				0,
+				57,
+				166
+			]
+		],
+		[
+			"Baltic Groove",
+			"lithuania",
+			[
+				0,
+				106,
+				78
+			]
+		],
+		[
+			"Iron Pulse",
+			"germany",
+			[
+				60,
+				60,
+				60
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Geopolitical Grooves",
+	"weekName": "VS Polandballs",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
