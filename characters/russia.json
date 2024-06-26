@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Russia idle"
+		},
+		{
+			"offsets": [
+				13,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Russia left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Russia down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Russia right"
+		},
+		{
+			"offsets": [
+				12,
+				28
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Russia up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Russia",
+	"position": [
+		-150,
+		340
+	],
+	"healthicon": "russia",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		57,
+		166
+	],
+	"camera_position": [
+		150,
+		80
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}
