@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Russia.png">
+<SubTexture name="Russia down0000" x="0" y="0" width="570" height="351" frameX="0" frameY="-145" frameWidth="530" frameHeight="456" />
+<SubTexture name="Russia down0001" x="570" y="0" width="569" height="387" frameX="0" frameY="-109" frameWidth="530" frameHeight="456" />
+<SubTexture name="Russia down0002" x="1139" y="0" width="567" height="423" frameX="0" frameY="-73" frameWidth="530" frameHeight="456" />
+<SubTexture name="Russia down0003" x="1706" y="0" width="566" height="460" frameX="0" frameY="-36" frameWidth="530" frameHeight="456" />
+<SubTexture name="Russia down0004" x="0" y="460" width="565" height="496" frameX="0" frameY="0" frameWidth="530" frameHeight="456" />
+<SubTexture name="Russia idle0000" x="565" y="460" width="618" height="442" frameX="0" frameY="-54" frameWidth="578" frameHeight="456" />
+<SubTexture name="Russia idle0001" x="1183" y="460" width="615" height="455" frameX="0" frameY="-41" frameWidth="578" frameHeight="456" />
+<SubTexture name="Russia idle0002" x="1798" y="460" width="611" height="469" frameX="0" frameY="-27" frameWidth="578" frameHeight="456" />
+<SubTexture name="Russia idle0003" x="0" y="956" width="607" height="482" frameX="0" frameY="-14" frameWidth="578" frameHeight="456" />
+<SubTexture name="Russia idle0004" x="607" y="956" width="604" height="496" frameX="0" frameY="0" frameWidth="578" frameHeight="456" />
+<SubTexture name="Russia left0000" x="1211" y="956" width="595" height="496" frameX="0" frameY="0" frameWidth="581" frameHeight="456" />
+<SubTexture name="Russia left0001" x="1806" y="956" width="598" height="496" frameX="-4" frameY="0" frameWidth="581" frameHeight="456" />
+<SubTexture name="Russia left0002" x="0" y="1452" width="600" height="496" frameX="-8" frameY="0" frameWidth="581" frameHeight="456" />
+<SubTexture name="Russia left0003" x="600" y="1452" width="602" height="496" frameX="-13" frameY="0" frameWidth="581" frameHeight="456" />
+<SubTexture name="Russia left0004" x="1202" y="1452" width="604" height="496" frameX="-17" frameY="0" frameWidth="581" frameHeight="456" />
+<SubTexture name="Russia right0000" x="1806" y="1452" width="667" height="495" frameX="-24" frameY="-1" frameWidth="651" frameHeight="456" />
+<SubTexture name="Russia right0001" x="0" y="1948" width="655" height="496" frameX="-17" frameY="0" frameWidth="651" frameHeight="456" />
+<SubTexture name="Russia right0002" x="655" y="1948" width="638" height="496" frameX="-12" frameY="0" frameWidth="651" frameHeight="456" />
+<SubTexture name="Russia right0003" x="1293" y="1948" width="622" height="496" frameX="-5" frameY="0" frameWidth="651" frameHeight="456" />
+<SubTexture name="Russia right0004" x="1915" y="1948" width="604" height="496" frameX="0" frameY="0" frameWidth="651" frameHeight="456" />
+<SubTexture name="Russia up0000" x="0" y="2444" width="569" height="537" frameX="0" frameY="0" frameWidth="581" frameHeight="497" />
+<SubTexture name="Russia up0001" x="569" y="2444" width="577" height="527" frameX="-5" frameY="-10" frameWidth="581" frameHeight="497" />
+<SubTexture name="Russia up0002" x="1146" y="2444" width="586" height="517" frameX="-9" frameY="-20" frameWidth="581" frameHeight="497" />
+<SubTexture name="Russia up0003" x="1732" y="2444" width="595" height="506" frameX="-14" frameY="-31" frameWidth="581" frameHeight="497" />
+<SubTexture name="Russia up0004" x="0" y="2981" width="604" height="496" frameX="-17" frameY="-41" frameWidth="581" frameHeight="497" />
+</TextureAtlas>
