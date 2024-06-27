@@ -110,6 +110,8 @@ end
 
 function showInfo()
     conInfo = 80 -- Info Y position
+    conScore = 480 -- Score Y position
+
     makeLuaText('diff', "Difficulty:\n"..difficultyName, 650, 730, conInfo)
 	setTextFont('diff', "crashalike.ttf")
 	setTextAlignment('diff', 'Left')
@@ -162,13 +164,7 @@ function showInfo()
     setProperty("practiceT.alpha", 0)
     addLuaText('practiceT');
 
-    runTimer("showInfo", 0.7)
-end
-
-function showScores()
-    conScore = 480 -- Score Y position
-
-    makeLuaText('score', "Score: "..getScore(), 650, 730, conScore)
+    makeLuaText('score', "Score: "..getScore()..'\nHealth: '..(getHealth()*50), 650, 730, conScore)
 	setTextFont('score', "crashalike.ttf")
 	setTextAlignment('score', 'Left')
 	setObjectCamera('score', 'camOther');
@@ -182,7 +178,7 @@ function showScores()
         ratingName = "NAN"
     end
 
-    makeLuaText('accuracy', "Hits: "..getHits().." | Misses: "..getMisses().." | Accuracy: "..math.floor(rating * 100) .."% ("..ratingName..")", 650, 730, conScore+25)
+    makeLuaText('accuracy', "Hits: "..getHits().." | Misses: "..getMisses().." | Accuracy: "..math.floor(rating * 100) .."% ("..ratingName..")", 650, 730, conScore+50)
 	setTextFont('accuracy', "crashalike.ttf")
 	setTextAlignment('accuracy', 'Left')
 	setObjectCamera('accuracy', 'camOther');
@@ -191,16 +187,6 @@ function showScores()
     setProperty('accuracy.alpha',0)
 	setTextSize('accuracy',25);
     addLuaText('accuracy');
-
-    makeLuaText('health', "Health: "..(getHealth()*50), 650, 730, conScore+(25*2))
-	setTextFont('health', "crashalike.ttf")
-	setTextAlignment('health', 'Left')
-	setObjectCamera('health', 'camOther');
-	setProperty('health.antialiasing',false)
-    setProperty('health.alpha',0)
-	setTextBorder('health',1,'000000')
-	setTextSize('health',25);
-    addLuaText('health');
 
     if getProperty('cpuControlled') then
         botToggle = 'ON'
@@ -217,17 +203,18 @@ function showScores()
 	setTextBorder('botPlay',1,'000000')
 	setTextSize('botPlay',25);
     addLuaText('botPlay');
+
+    runTimer("showInfo", 0.7)
 end
 
 function deletInfo()
-    removeLuaText("score")
-    removeLuaText("accuracy")
-    removeLuaText("health")
-    removeLuaText("botPlay")
     removeLuaText("diff")
     removeLuaText("date")
     removeLuaText("playmode")
     removeLuaText("practiceT")
+    removeLuaText("score")
+    removeLuaText("accuracy")
+    removeLuaText("botPlay")
 end
 
 function onCustomSubstateCreatePost(name)
@@ -269,8 +256,8 @@ function onCustomSubstateCreatePost(name)
         addLuaText('opts'); 
         addLuaText('song');
         addLuaText('Arrow');
+        
         addLuaText('acc');
-        showScores();
         showInfo();
         addLuaText('PauseMessage')
 	    setTextString('PauseMessage', MessageTexts[getRandomInt(1, #MessageTexts)])  
@@ -296,7 +283,6 @@ function onCustomSubstateUpdatePost(name)
             runTimer("deletInfo", 0.1)
             runTimer("endSubstate", 0.7)
             playSound("endPause");
-            closeCustomSubstate();
         elseif keyboardJustPressed('ENTER') and optionSelected == 2 then
             playSound("confirmMenu");
             restartSong(false);
@@ -368,27 +354,26 @@ function onTimerCompleted(tag, loops, loopsLeft)
         removeLuaText('acc', false)
         removeLuaText('PauseMessage', false)
         deletInfo();
+        closeCustomSubstate();
         setPropertyFromClass("flixel.FlxG", "autoPause", true)
     elseif tag == 'pauseSound' then
         playSound("pause");
     elseif tag == 'showInfo' then
         doTweenAlpha("diffTwn", "diff", 1, 0.5, "linear")
-        doTweenAlpha("dateTwn", "date", 1, 0.6, "linear")
-        doTweenAlpha("playmodeTwn", "playmode", 1, 0.7, "linear")
-        doTweenAlpha("practiceTTwn", "practiceT", 1, 0.8, "linear")
+        doTweenAlpha("dateTwn", "date", 1, 0.5, "linear")
+        doTweenAlpha("playmodeTwn", "playmode", 1, 0.5, "linear")
+        doTweenAlpha("practiceTTwn", "practiceT", 1, 0.5, "linear")
         doTweenAlpha("scoreTwn", "score", 1, 0.5, "linear")
-        doTweenAlpha("accuracyTwn", "accuracy", 1, 0.6, "linear")
-        doTweenAlpha("healthTwn", "health", 1, 0.7, "linear")
-        doTweenAlpha("botPlayTTwn", "botPlay", 1, 0.8, "linear")
+        doTweenAlpha("accuracyTwn", "accuracy", 1, 0.5, "linear")
+        doTweenAlpha("botPlayTTwn", "botPlay", 1, 0.5, "linear")
     elseif tag == 'deletInfo' then
         doTweenAlpha("diffTwn", "diff", 0, 0.5, "linear")
-        doTweenAlpha("dateTwn", "date", 0, 0.6, "linear")
-        doTweenAlpha("playmodeTwn", "playmode", 0, 0.7, "linear")
-        doTweenAlpha("practiceTTwn", "practiceT", 0, 0.8, "linear")
+        doTweenAlpha("dateTwn", "date", 0, 0.5, "linear")
+        doTweenAlpha("playmodeTwn", "playmode", 0, 0.5, "linear")
+        doTweenAlpha("practiceTTwn", "practiceT", 0, 0.5, "linear")
         doTweenAlpha("scoreTwn", "score", 0, 0.5, "linear")
-        doTweenAlpha("accuracyTwn", "accuracy", 0, 0.6, "linear")
-        doTweenAlpha("healthTwn", "health", 0, 0.7, "linear")
-        doTweenAlpha("botPlayTTwn", "botPlay", 0, 0.8, "linear")
+        doTweenAlpha("accuracyTwn", "accuracy", 0, 0.5, "linear")
+        doTweenAlpha("botPlayTTwn", "botPlay", 0, 0.5, "linear")
     elseif tag == 'showArrow' then
         doTweenAlpha("ArrowTwn", "Arrow", 1, 0.7, "linear")
     elseif tag == 'endProgram' then
