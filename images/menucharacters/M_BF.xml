@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="M_BF.png">
+    <SubTexture name="M_BF idle0000" x="0" y="1532" width="665" height="477" frameX="0" frameY="-45" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0001" x="659" y="1033" width="662" height="488" frameX="0" frameY="-34" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0002" x="1312" y="511" width="658" height="499" frameX="0" frameY="-23" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0003" x="0" y="522" width="655" height="511" frameX="0" frameY="-11" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0004" x="0" y="0" width="651" height="522" frameX="0" frameY="0" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0005" x="0" y="0" width="651" height="522" frameX="0" frameY="0" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0006" x="0" y="0" width="651" height="522" frameX="0" frameY="0" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0007" x="0" y="0" width="651" height="522" frameX="0" frameY="0" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0008" x="0" y="0" width="651" height="522" frameX="0" frameY="0" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0009" x="0" y="0" width="651" height="522" frameX="0" frameY="0" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0010" x="0" y="0" width="651" height="522" frameX="0" frameY="0" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0011" x="0" y="0" width="651" height="522" frameX="0" frameY="0" frameWidth="665" frameHeight="522" />
+    <SubTexture name="M_BF idle0012" x="0" y="0" width="651" height="522" frameX="0" frameY="0" frameWidth="665" frameHeight="522" />
+</TextureAtlas>

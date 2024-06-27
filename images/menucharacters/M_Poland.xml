@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="M_Poland.png">
+    <SubTexture name="M_Poland idle0000" x="0" y="0" width="607" height="440" frameX="0" frameY="-56" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0001" x="0" y="440" width="607" height="454" frameX="0" frameY="-42" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0002" x="0" y="894" width="606" height="468" frameX="0" frameY="-28" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0003" x="0" y="1362" width="606" height="482" frameX="0" frameY="-14" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0004" x="0" y="1844" width="604" height="496" frameX="0" frameY="0" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0005" x="0" y="1844" width="604" height="496" frameX="0" frameY="0" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0006" x="0" y="1844" width="604" height="496" frameX="0" frameY="0" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0007" x="0" y="1844" width="604" height="496" frameX="0" frameY="0" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0008" x="0" y="1844" width="604" height="496" frameX="0" frameY="0" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0009" x="0" y="1844" width="604" height="496" frameX="0" frameY="0" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0010" x="0" y="1844" width="604" height="496" frameX="0" frameY="0" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0011" x="0" y="1844" width="604" height="496" frameX="0" frameY="0" frameWidth="567" frameHeight="456" />
+    <SubTexture name="M_Poland idle0012" x="0" y="1844" width="604" height="496" frameX="0" frameY="0" frameWidth="567" frameHeight="456" />
+  </TextureAtlas>

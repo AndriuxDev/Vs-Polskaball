@@ -1,0 +1,11 @@
+{
+	"idle_anim": "M_BF idle",
+	"image": "M_BF",
+	"position": [
+		180,
+		10
+	],
+	"flipX": true,
+	"scale": 0.4,
+	"confirm_anim": "M_BF hey"
+}
