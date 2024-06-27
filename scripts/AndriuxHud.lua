@@ -131,7 +131,7 @@ function onUpdate(elapsed)
         setObjectCamera("fcstat", "camHud")
         addLuaText("fcstat", false)
 
-        makeLuaSprite("weegee", "pauseScreen/luigi", 1170, 630);
+        makeLuaSprite("weegee", "HUD/botplay", 1170, 630);
         setObjectCamera("weegee", "hud")
         addLuaSprite("weegee", false)
         scaleObject("weegee", 0.3, 0.3)
