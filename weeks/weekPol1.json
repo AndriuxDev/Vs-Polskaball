@@ -39,11 +39,11 @@
 	],
 	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
-	"weekBackground": "stage",
-	"difficulties": "",
+	"weekBackground": "poland",
+	"difficulties": "Demo",
 	"weekCharacters": [
-		"dad",
-		"bf",
+		"poland",
+		"bf-pb",
 		"gf"
 	],
 	"storyName": "Geopolitical Grooves",
