@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-95,
+				-78
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Germany idle"
+		},
+		{
+			"offsets": [
+				-73,
+				-79
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Germany left"
+		},
+		{
+			"offsets": [
+				-96,
+				-78
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Germany down"
+		},
+		{
+			"offsets": [
+				-96,
+				-78
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Germany right"
+		},
+		{
+			"offsets": [
+				-87,
+				-59
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Germany up"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Germany",
+	"position": [
+		-150,
+		340
+	],
+	"healthicon": "germany",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		150,
+		80
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1,
+	"_editor_isPlayer": false
+}

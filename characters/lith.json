@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-95,
+				-78
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Lith idle"
+		},
+		{
+			"offsets": [
+				-77,
+				-79
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Lith left"
+		},
+		{
+			"offsets": [
+				-96,
+				-78
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Lith down"
+		},
+		{
+			"offsets": [
+				-96,
+				-78
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Lith right"
+		},
+		{
+			"offsets": [
+				-86,
+				-74
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Lith up"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Lithuania",
+	"position": [
+		-150,
+		340
+	],
+	"healthicon": "lithuania",
+	"flip_x": false,
+	"healthbar_colors": [
+		9,
+		119,
+		29
+	],
+	"camera_position": [
+		150,
+		80
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1,
+	"_editor_isPlayer": false
+}
