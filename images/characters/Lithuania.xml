@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Lithuania.png">
+<SubTexture name="Lith down0000" x="0" y="0" width="384" height="257" frameX="-7" frameY="-80" frameWidth="363" frameHeight="297" />
+<SubTexture name="Lith down0001" x="384" y="0" width="390" height="277" frameX="-5" frameY="-60" frameWidth="363" frameHeight="297" />
+<SubTexture name="Lith down0002" x="774" y="0" width="395" height="297" frameX="-4" frameY="-40" frameWidth="363" frameHeight="297" />
+<SubTexture name="Lith down0003" x="1169" y="0" width="400" height="317" frameX="-1" frameY="-20" frameWidth="363" frameHeight="297" />
+<SubTexture name="Lith down0004" x="0" y="317" width="403" height="337" frameX="0" frameY="0" frameWidth="363" frameHeight="297" />
+<SubTexture name="Lith idle0000" x="403" y="317" width="409" height="300" frameX="0" frameY="-37" frameWidth="369" frameHeight="297" />
+<SubTexture name="Lith idle0001" x="812" y="317" width="409" height="310" frameX="0" frameY="-27" frameWidth="369" frameHeight="297" />
+<SubTexture name="Lith idle0002" x="1221" y="317" width="409" height="319" frameX="0" frameY="-18" frameWidth="369" frameHeight="297" />
+<SubTexture name="Lith idle0003" x="0" y="654" width="408" height="328" frameX="0" frameY="-9" frameWidth="369" frameHeight="297" />
+<SubTexture name="Lith idle0004" x="408" y="654" width="408" height="337" frameX="0" frameY="0" frameWidth="369" frameHeight="297" />
+<SubTexture name="Lith left0000" x="816" y="654" width="339" height="301" frameX="0" frameY="-36" frameWidth="328" frameHeight="297" />
+<SubTexture name="Lith left0001" x="1155" y="654" width="339" height="310" frameX="-4" frameY="-27" frameWidth="328" frameHeight="297" />
+<SubTexture name="Lith left0002" x="0" y="991" width="342" height="319" frameX="-8" frameY="-18" frameWidth="328" frameHeight="297" />
+<SubTexture name="Lith left0003" x="342" y="991" width="347" height="328" frameX="-12" frameY="-9" frameWidth="328" frameHeight="297" />
+<SubTexture name="Lith left0004" x="689" y="991" width="352" height="337" frameX="-16" frameY="0" frameWidth="328" frameHeight="297" />
+<SubTexture name="Lith right0000" x="1041" y="991" width="380" height="300" frameX="-16" frameY="-37" frameWidth="356" frameHeight="297" />
+<SubTexture name="Lith right0001" x="0" y="1328" width="381" height="310" frameX="-12" frameY="-27" frameWidth="356" frameHeight="297" />
+<SubTexture name="Lith right0002" x="381" y="1328" width="381" height="319" frameX="-9" frameY="-18" frameWidth="356" frameHeight="297" />
+<SubTexture name="Lith right0003" x="762" y="1328" width="383" height="328" frameX="-4" frameY="-9" frameWidth="356" frameHeight="297" />
+<SubTexture name="Lith right0004" x="1145" y="1328" width="384" height="337" frameX="0" frameY="0" frameWidth="356" frameHeight="297" />
+<SubTexture name="Lith up0000" x="0" y="1665" width="402" height="341" frameX="0" frameY="0" frameWidth="374" frameHeight="301" />
+<SubTexture name="Lith up0001" x="402" y="1665" width="403" height="340" frameX="-2" frameY="-1" frameWidth="374" frameHeight="301" />
+<SubTexture name="Lith up0002" x="805" y="1665" width="404" height="340" frameX="-4" frameY="-1" frameWidth="374" frameHeight="301" />
+<SubTexture name="Lith up0003" x="1209" y="1665" width="405" height="339" frameX="-6" frameY="-2" frameWidth="374" frameHeight="301" />
+<SubTexture name="Lith up0004" x="0" y="2006" width="406" height="338" frameX="-8" frameY="-3" frameWidth="374" frameHeight="301" />
+</TextureAtlas>

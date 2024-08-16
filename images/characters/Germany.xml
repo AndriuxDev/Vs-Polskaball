@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Germany.png">
+<SubTexture name="Germany down0000" x="0" y="0" width="376" height="246" frameX="-4" frameY="-91" frameWidth="367" frameHeight="297" />
+<SubTexture name="Germany down0001" x="376" y="0" width="388" height="269" frameX="-3" frameY="-68" frameWidth="367" frameHeight="297" />
+<SubTexture name="Germany down0002" x="764" y="0" width="397" height="291" frameX="-2" frameY="-46" frameWidth="367" frameHeight="297" />
+<SubTexture name="Germany down0003" x="1161" y="0" width="404" height="314" frameX="-1" frameY="-23" frameWidth="367" frameHeight="297" />
+<SubTexture name="Germany down0004" x="0" y="314" width="407" height="337" frameX="0" frameY="0" frameWidth="367" frameHeight="297" />
+<SubTexture name="Germany idle0000" x="407" y="314" width="409" height="300" frameX="0" frameY="-37" frameWidth="369" frameHeight="297" />
+<SubTexture name="Germany idle0001" x="816" y="314" width="409" height="310" frameX="0" frameY="-27" frameWidth="369" frameHeight="297" />
+<SubTexture name="Germany idle0002" x="1225" y="314" width="409" height="319" frameX="0" frameY="-18" frameWidth="369" frameHeight="297" />
+<SubTexture name="Germany idle0003" x="0" y="651" width="408" height="328" frameX="0" frameY="-9" frameWidth="369" frameHeight="297" />
+<SubTexture name="Germany idle0004" x="408" y="651" width="408" height="337" frameX="0" frameY="0" frameWidth="369" frameHeight="297" />
+<SubTexture name="Germany left0000" x="816" y="651" width="388" height="321" frameX="0" frameY="-16" frameWidth="388" frameHeight="297" />
+<SubTexture name="Germany left0001" x="1204" y="651" width="397" height="326" frameX="-5" frameY="-11" frameWidth="388" frameHeight="297" />
+<SubTexture name="Germany left0002" x="0" y="988" width="403" height="330" frameX="-11" frameY="-7" frameWidth="388" frameHeight="297" />
+<SubTexture name="Germany left0003" x="403" y="988" width="407" height="334" frameX="-15" frameY="-3" frameWidth="388" frameHeight="297" />
+<SubTexture name="Germany left0004" x="810" y="988" width="408" height="337" frameX="-20" frameY="0" frameWidth="388" frameHeight="297" />
+<SubTexture name="Germany right0000" x="1218" y="988" width="386" height="328" frameX="-19" frameY="-9" frameWidth="370" frameHeight="297" />
+<SubTexture name="Germany right0001" x="0" y="1325" width="395" height="331" frameX="-14" frameY="-6" frameWidth="370" frameHeight="297" />
+<SubTexture name="Germany right0002" x="395" y="1325" width="401" height="333" frameX="-9" frameY="-4" frameWidth="370" frameHeight="297" />
+<SubTexture name="Germany right0003" x="796" y="1325" width="405" height="336" frameX="-5" frameY="-1" frameWidth="370" frameHeight="297" />
+<SubTexture name="Germany right0004" x="1201" y="1325" width="408" height="337" frameX="0" frameY="0" frameWidth="370" frameHeight="297" />
+<SubTexture name="Germany up0000" x="0" y="1662" width="374" height="355" frameX="0" frameY="0" frameWidth="375" frameHeight="315" />
+<SubTexture name="Germany up0001" x="374" y="1662" width="382" height="351" frameX="-2" frameY="-4" frameWidth="375" frameHeight="315" />
+<SubTexture name="Germany up0002" x="756" y="1662" width="392" height="346" frameX="-3" frameY="-9" frameWidth="375" frameHeight="315" />
+<SubTexture name="Germany up0003" x="1148" y="1662" width="399" height="342" frameX="-6" frameY="-13" frameWidth="375" frameHeight="315" />
+<SubTexture name="Germany up0004" x="0" y="2017" width="408" height="338" frameX="-7" frameY="-17" frameWidth="375" frameHeight="315" />
+</TextureAtlas>
