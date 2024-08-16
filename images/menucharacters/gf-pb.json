@@ -1,0 +1,11 @@
+{
+	"idle_anim": "M_GF idle",
+	"image": "M_GF",
+	"position": [
+		130,
+		130
+	],
+	"flipX": false,
+	"scale": 0.5,
+	"confirm_anim": "M Dad Idle"
+}
